@@ -23,8 +23,8 @@ $(function(){
 
     $.fn.checking = function(ck) {
         if (ck != $ans)
-            return 'INCORRECT';
+            alert ('INCORRECT');
         else 
-            return 'CORRECT';
+            alert ('CORRECT');
     }; 
 });	
